@@ -1,0 +1,105 @@
+body {
+    font-family: Lucida Bright ;
+    letter-spacing: 0.25px;
+    line-height: 1.5;
+    background: url(images/background.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 5px;
+        
+    }
+
+    h1 {
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+    }
+
+    img {
+        float:right;
+        width:300px;   
+        
+    }
+
+  
+    #wrapper{
+        width:940px;
+        padding:20px;
+        /*to center a box, use the margin property with the value below */
+        margin:0 auto 0 auto;
+        background-color: hsl(240, 17%, 77%);
+       
+    }
+
+  #banner{
+    margin: 10px 0;
+    border: 1px solid #000000;
+    background-color:rgb(148, 130, 159);
+    }
+
+    a{
+        text-decoration: none;
+        color:rgb(98, 8, 104);
+        
+    }
+    a:hover{
+        font-weight: bold ;
+        transition: all 0.375s;
+    }
+    #a1{
+        color: rgb(32, 110, 110);
+
+    }
+
+    #a1:hover{
+        font-weight:lighter ;
+        font-size: large;
+        transition: all 0.375s;
+    }
+
+    #strong1{
+        color:rgb(28, 23, 32);
+    }
+
+    #i1{
+        color:darkslategrey;
+    }
+
+    #hr1 {
+        height: 2px;  
+        width: 100%;
+        background-color: rgb(8, 8, 8);  
+        border: none;
+    }
+
+    #hr2{
+        height: 1.5px;
+        background-color: rgb(8, 8, 8);  
+        border: none;
+    }
+
+   #container{
+    display:flex;
+    justify-content: space-between;
+   }
+    button{
+       
+        cursor:pointer;
+        border-radius: 1.25rem;
+        padding: 7px;
+        background: rgb(148, 130, 159);
+        text-align: center;
+        font-size: large;
+        border: solid 1.5px #000000;
+        margin:2px;
+    }
+
+    button:hover{
+        background: rgb(142, 107, 164);
+        transition: 3.275ms;
+        font-size: larger;
+    }
+  

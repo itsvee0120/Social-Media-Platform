@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logins</title>
+    </title>
+    <link rel="stylesheet" href="Style4.css">
+</head>
+
+<body>
+    <div class="login-card">
+        <h1> Logins</h1>
+        <h2>Enter your credentials</h2>
+        <img src="image/Sanrio.png" class="foreground">
+
+        <form id="login-form" onsubmit="validateLogin(); return false;">
+            <label for="username"></label>
+            <input type="text" id="username" name="username" required placeholder="Username"><br><br>
+
+            <label for="password"></label>
+            <input type="password" id="password" name="password" required placeholder="Password"><br><br>
+
+            <a href="#"> Forget your password ?</a>
+
+            <a href="SignUp.html">Sign Up</a>
+
+            <button type="submit">Login</button>
+        </form>
+
+        <p id="message"></p>
+
+        <script>
+            function validateLogin() {
+                // Define the correct username and password here
+                const correctUsername = "n";
+                const correctPassword = "123";
+
+                // Get the user-entered username and password
+                const enteredUsername = document.getElementById("username").value;
+                const enteredPassword = document.getElementById("password").value;
+
+                // Check if the entered username and password match the correct values
+                if (enteredUsername === correctUsername && enteredPassword === correctPassword) {
+                    document.getElementById("message").textContent = "Login Successful";
+                    // Redirect to another HTML file when the login is successful
+                    window.location.href = "index.html"; // Replace with your desired link
+                } else {
+                    document.getElementById("message").textContent = "Login Failed: Invalid username or password";
+                }
+            }
+        </script>
+</body>
+
+</html>

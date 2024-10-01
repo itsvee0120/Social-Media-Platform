@@ -1,0 +1,138 @@
+@font-face {
+    font-family: "Star Choco";
+    src: url("Star Choco.ttf") format("truetype");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body,
+.wrapper {
+    height: 100%;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    margin: 0;
+    padding: 0 24px;
+    background-color: rgb(78, 74, 128);
+    background-repeat: no-repeat;
+    font-family: "Star Choco";
+
+}
+
+.login-card {
+    position: relative;
+    z-index: 3;
+    width: 100%;
+    margin: 0 20px;
+    padding: 70px 30px 44px;
+    border-radius: 1.25rem;
+    border-style: solid;
+    border-color: rgb(52, 29, 75);
+    background: #7864d1;
+    text-align: center;
+
+
+}
+
+.login-card>h1 {
+    font-size: 36px;
+    font-weight: 600;
+    margin: 0 0 12px;
+}
+
+.login-card>h2 {
+    color: rgba(0, 0, 0, 0.60);
+    margin: 0 0 30px;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+.login-form {
+    padding: 15px;
+    width: 100%;
+    margin: 0;
+    display: grid;
+    gap: 16px
+}
+
+.login-form>input,
+.login-form>button {
+    width: 100%;
+    height: 50px;
+}
+
+.login-form>input {
+    border: 2px solid #8f8da0;
+    font-family: "Star Choco";
+    font-size: 15px;
+    padding: 0 20px;
+    border-radius: 1.25rem;
+    transition: all 0.375s;
+}
+
+.login-form>input:hover {
+    border: 2px solid #1f2a69;
+}
+
+.login-form>button {
+    cursor: pointer;
+    width: 100%;
+    padding: 0 16px;
+    border-radius: 1.25rem;
+    background: #4a3283;
+    color: #0a0808;
+    border: 0;
+    font-family: "Star Choco";
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 2px;
+    transition: all 300ms;
+}
+
+.login-form>button:hover {
+    background: #7a67d1
+}
+
+.login-form>a {
+    color: #27158a;
+    text-decoration: none;
+    margin-bottom: 6px;
+    transition: all 0.375s;
+}
+
+.login-form>a:hover {
+    color: #521f7c
+}
+
+@keyframes rotate {
+    100% {
+        background-position: 15% 50%;
+
+    }
+
+    from {
+        background-color: red;
+    }
+
+    to {
+        background-color: yellow;
+    }
+}
+
+@media (width >=500px) {
+    body {
+        padding: 0;
+
+    }
+
+    .login-card {
+        margin: 0;
+        width: 500px;
+    }
+}
