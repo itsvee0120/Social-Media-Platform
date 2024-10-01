@@ -8,6 +8,9 @@ This is an ongoing Sanrio's theme project inspired by the EGATOR's [Social Media
 - **Sign Up Page**: New users can create accounts.
 - **Home Page**: Users can view and interact with content.
 
+  ## Projects Demo
+  [Click here to view my project live](https://itsvee0120.github.io/Social-Media-Platform/)
+
 ## Author
 
 Violet Nguyen
