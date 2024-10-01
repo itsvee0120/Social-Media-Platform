@@ -1,65 +1,229 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portal Page</title>
-    <link rel="stylesheet" href="styles.css">     
+    <title>Home</title>
+    </title>
+    <link rel="stylesheet" href="Style2.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
 </head>
 
-
 <body>
-    <div id="wrapper"> 
 
-        <div id="banner">
-            <h1>Welcome to Violet Nguyen's Portal</h1>
-        </div> <!--end of banner-->
+    <nav>
+        <div class="container">
+            <h2 class="log">
+                Sanrio Go
+            </h2>
+            <div class="search-bar">
+                <i class="uil uil-search"></i>
+                <input type="search" placeholder="Search for inspirations">
+            </div>
+            <div class="create">
+                <label class="btn btn-primary" for="create-post"> Create</label>
+                <div class="profile-pic">
+                    <img src="girl.jpg">
+                </div>
+            </div>
+        </div>
+    </nav>
 
-    <h2><i>Computer Science Major</i></h2>
+    <!=================================================================================================>
 
-    <h3>A little bit about me!</h3>
+        <main>
+            <div class="container">
+                <div class="left">
+                    <a class="profile">
+                        <div class="profile-pic">
+                            <img src="girl.jpg">
+                        </div>
+                        <div class="handle">
+                            <h4> Violet Nguyen</h4>
+                            <p class="text-muted">
+                                @Veeitsme
+                            </p>
+                        </div>
+                    </a>
+                    <!==============================================================================================>
 
-    <img src="images/Violet.jpeg" alt="Violet Nguyen"> 
+                        <div class="sidebar">
+                            <a class="menu-item active">
+                                <span><i class="uil uil-estate"></i> </span>
+                                <h3>Home</h3>
+                            </a>
+
+                            <a class="menu-item ">
+                                <span><i class="uil uil-compass"></i> </span>
+                                <h3>Explore</h3>
+                            </a>
+
+                            <a class="menu-item " id="notifications">
+                                <span><i class="uil uil-bell"><small class="notification-count">4+</small></i></span>
+                                <h3>Notification</h3>
+
+                                <!================================NOTIF POP UP========================================>
+                                    <div class="notifications-popup">
+                                        <div>
+                                            <div class="profile-pic">
+                                                <img src="pop1.jpg">
+                                            </div>
+                                            <div class="notification-body">
+                                                <b>Alinn Su</b> accepted your friend request
+                                                <small class="text-muted">2 DAYS AGO</small>
+                                            </div>
+                                        </div>
 
 
-    <p> My name is <strong id="strong1">Violet Nguyen</strong> (violet like the theme of this portal page).
-         I'm currently working toward my<strong><a id="a1" href="https://northseattle.edu/programs/application-development/application-development-bachelor-applied-science-bas-degree">
-         Bachelor's in Application Development</a></strong> at North Seattle College (click to learn more). I was born in the beautiful country 
-         Vietnam. I moved to the U.S. alone to pursue education. I love the color <i id="i1"><b>green</b></i> !</p>
-    <h3> About this Portal page </h3>  
-    <p> I created this simple portal page to showcase my personal HTML/CSS and JavaScript 
-        projects. The purpose of this portal is to be simple and efficient with my contact
-        and Github button integrated along with all of my links to projects I built. 
-        I will continue upgrading and updating this portal as my project library grows.
-    </p>
-    <a href="https://pin.it/6Qt4qrRHn">Background image source</a></ul>
-
-    <hr id="hr1"> <!--horizontal line-->
-
-    <h3>My Links</h3>
-        <ul>
-            <li><a href ="./LogIns.html">Project 1: Social Media Log In/ Sign Up Web Interface</a></li>
-            <li><a href ="./Home.html">Project 2: Social Media Home Page (under construction) </a></li>
-            <li><a href ="">link 3: under construction</a></li>
-            <li><a href ="">link 4: under construction</a></li>
-            <li><a href ="">link 5: under construction</a></li>
-            <li><a href ="">link 6: under construction</a></li>
-            <li><a href ="">link 7: under construction</a></li>
-            
-        </ul>
-
-<hr id="hr2"> <!--horizontal line-->
-
-<div id="container">
-    <div class="left">
-    <a href="https://forms.gle/KLTF7cY79f36m5Lv7">
-    <button type="button"><b>Contact Violet</b></a></div>
-
-    <div class="right">
-    <a href="https://github.com/itsvee0120">
-    <button type="button"><b>Violet's Github</b></a></div>
-</div>
+                                        <div>
+                                            <div class="profile-pic">
+                                                <img src="pop2.jpg">
+                                            </div>
+                                            <div class="notification-body">
+                                                <b>Mel B</b> commented on your post
+                                                <small class="text-muted">20 MINS </small>
+                                            </div>
+                                        </div>
 
 
-</div> <!--wrapper end-->
-        
+                                        <div>
+                                            <div class="profile-pic">
+                                                <img src="pop3.jpg">
+                                            </div>
+                                            <div class="notification-body">
+                                                <b>Phill D</b> and 24 others liked your post
+                                                <small class="text-muted"> 1 DAY AGO</small>
+                                            </div>
+                                        </div>
+
+
+                                        <div>
+                                            <div class="profile-pic">
+                                                <img src="pop4.jpg">
+                                            </div>
+                                            <div class="notification-body">
+                                                <b>Ann T</b> commented on a post you are tagged in
+                                                <small class="text-muted">30 MINS</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </a>
+                            <!==============================================================================================>
+
+                                <a class="menu-item " id="messages-notification">
+                                    <span><i class="uil uil-envelope-heart"><small
+                                                class="notification-count">6</small></i></span>
+                                    <h3>Messages</h3>
+
+                                </a>
+
+
+                                <a class="menu-item ">
+                                    <span><i class="uil uil-notebooks"></i></span>
+                                    <h3>Bookmark</h3>
+                                </a>
+
+
+                                <a class="menu-item ">
+                                    <span><i class="uil uil-tachometer-fast-alt"></i> </span>
+                                    <h3>Analytic</h3>
+                                </a>
+
+
+                                <a class="menu-item ">
+                                    <span><i class="uil uil-palette"></i> </span>
+                                    <h3>Theme</h3>
+                                </a>
+
+                                <a class="menu-item ">
+                                    <span><i class="uil uil-setting"></i></i> </span>
+                                    <h3>Settings</h3>
+                                </a>
+
+                        </div>
+
+                        <!====================================>
+                            <label for="create-post" class="btn btn-primary">Create Post</label>
+                </div>
+
+                <!------------------------------------------------------------------------------>
+                <div class="middle">
+
+                    <div class="stories">
+                        <div class="story">
+                            <div class="profile-pic">
+                                <img src="story1.png">
+                            </div>
+                            <p class="name">Your Story</p>
+                        </div>
+
+
+                        <div class="story">
+                            <div class="profile-pic">
+                                <img src="story2.jpg">
+                            </div>
+                            <p class="name">Mamo Ru</p>
+                        </div>
+
+
+                        <div class="story">
+                            <div class="profile-pic">
+                                <img src="story3.png">
+                            </div>
+                            <p class="name">Hannah J</p>
+                        </div>
+
+
+                        <div class="story">
+                            <div class="profile-pic">
+                                <img src="story4.jpg">
+                            </div>
+                            <p class="name">Kuro Ko</p>
+                        </div>
+
+
+                        <div class="story">
+                            <div class="profile-pic">
+                                <img src="story5.png">
+                            </div>
+                            <p class="name">Mao T</p>
+                        </div>
+
+
+                        <div class="story">
+                            <div class="profile-pic">
+                                <img src="story6.jpg">
+                            </div>
+                            <p class="name">Lia Yo</p>
+                        </div>
+                    </div>
+
+
+                    <!---------------------------------------------------------------------------------------->
+
+                    <form class="create-post">
+
+                        <div class="profile-pic">
+                            <img src="girl.jpg">
+                        </div>
+
+                        <input type="text" placeholder="What's Up! Vee?" id="create-post">
+
+                        <input type="submit" value="Post" class="btn btn-primary">
+
+                    </form>
+
+
+                </div>
+
+
+                <!==============================================================================================>
+
+                    <div class="right">
+
+                    </div>
+            </div>
+        </main>
+</body>
