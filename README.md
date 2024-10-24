@@ -1,6 +1,6 @@
 # Social Media Platform Project
 
-This is an ongoing Sanrio's theme project inspired by the EGATOR's [Social Media App Tutorial](https://youtu.be/AiFfDjmd0jU?si=5VsZIBVlTI9Lr2kp). The platform includes essential features such as a login screen, sign-up page, and home page, all built using JavaScript, HTML, and CSS.
+This is an ongoing Sanrio's theme social media platform project inspired by the EGATOR's [Social Media App Tutorial](https://youtu.be/AiFfDjmd0jU?si=5VsZIBVlTI9Lr2kp). The platform includes essential features such as a login screen, sign-up page, and home page, all built using JavaScript, HTML, and CSS.
 
 ## Features
 
